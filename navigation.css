@@ -1,0 +1,36 @@
+nav {
+	width: 100%;
+	background: #555;
+	padding: 15px;
+}
+
+[selected]{
+	color: #EBC452;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	/*padding: 0 10px;*/
+	font-family: Verdana, sans-serif;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+a:hover {
+/*	padding: 5px 15px;*/
+	background: #ddd;
+	color: #333;
+	border-radius: 5%;
+}
+
+a:active {
+	padding: 5px 15px;
+	border-color: #fff;
+	background: #EBC452;
+	color: #111;
+}
